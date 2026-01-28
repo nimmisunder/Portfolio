@@ -75,6 +75,10 @@ a {
   font-weight: 600;
 }
 
+.overview {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
 footer {
   background: #eaeaea;
   text-align: center;
@@ -102,16 +106,25 @@ footer {
 <strong>Environment:</strong> EMEA & Nordic Regions<br>
 <strong>Tech:</strong> PHP, Drupal, PerlGems, Payments, VAT, SAP, Emails
 </div>
+<p class="overview">
+      Worked on enterprise-scale global e-commerce platforms supporting multiple
+      luxury brands under Estée Lauder Companies. Focused on payment reliability,
+      checkout stability, regulatory compliance, and customer communication across
+      multiple regions and backend systems.
+    </p>
 
-<ul>
-<li>Owned and resolved critical production payment and checkout issues across luxury brands.</li>
-<li>Fixed order placement without payment-term acceptance.</li>
-<li>Led RCA for FR & BE order completion failures caused by inconsistent checkout email logic.</li>
-<li>Implemented safe fixes validated across multiple EU locales with zero regressions.</li>
-<li>Handled VAT updates (Romania 19% → 21%) with no production impact.</li>
-<li>Coordinated South Africa courier switchover impacting checkout, SAP routing, and tracking.</li>
-<li>Led Cyber Month email updates and safely reverted post-peak.</li>
-</ul>
+    <ul class="work-list">
+      <li>Owned and resolved critical production issues in payment and checkout flows across luxury brands.</li>
+      <li>Fixed scenarios allowing order placement without accepting mandatory payment terms.</li>
+      <li>Led root cause analysis for FR & BE order completion failures caused by inconsistent checkout email logic.</li>
+      <li>Designed and validated safe fixes tested across multiple EU locales with zero regressions.</li>
+      <li>Resolved mismatches between website configuration and order confirmation emails.</li>
+      <li>Implemented VAT updates including Romania VAT changes (19% → 21%) with no production impact.</li>
+      <li>Coordinated major courier switchover for South Africa impacting checkout and SAP routing.</li>
+      <li>Audited carrier codes, routes, and tracking URLs ensuring smooth go-live.</li>
+      <li>Collaborated with QA, SAP, Database, Supply Chain, and Consumer Care teams.</li>
+      <li>Led Cyber Month email updates and safely reverted changes post-peak.</li>
+    </ul>
 </div>
 
 <!-- Lease MP -->
@@ -122,12 +135,21 @@ footer {
 <strong>Tech:</strong> Laravel, MySQL, Jetstream, DocuSign
 </div>
 
-<ul>
-<li>Built end-to-end supplier financing workflows.</li>
-<li>Implemented role-based access for suppliers, financiers, and admins.</li>
-<li>Integrated DocuSign for secure digital contract verification.</li>
-<li>Implemented authentication and session handling using Laravel Jetstream.</li>
-</ul>
+<p class="overview">
+      Lease MP is a supplier financing platform that streamlines the end-to-end
+      financing workflow, allowing suppliers to raise funding requests,
+      financiers to review and approve them, and administrators to oversee the
+      entire lifecycle in a secure and compliant manner.
+    </p>
+
+    <ul class="work-list">
+      <li>Designed and developed the core financing workflow for suppliers, financiers, and administrators.</li>
+      <li>Took ownership of application architecture and access control with clear role separation.</li>
+      <li>Integrated DocuSign for secure digital contract verification and legal compliance.</li>
+      <li>Implemented secure authentication and session management using Laravel Jetstream.</li>
+      <li>Ensured data integrity and secure handling of sensitive financial and contractual information.</li>
+      <li>Collaborated with stakeholders to translate business requirements into a scalable solution.</li>
+    </ul>
 </div>
 
 <!-- DMS -->
@@ -138,12 +160,22 @@ footer {
 <strong>Tech:</strong> Laravel, MySQL, Encryption, Multi-Language
 </div>
 
-<ul>
-<li>Secure file uploads, downloads, and structured storage.</li>
-<li>Role-based authorization and encrypted document storage.</li>
-<li>Drag-and-drop uploads with file compression for performance.</li>
-<li>Multi-language support for global users.</li>
-</ul>
+<p class="overview">
+      DMS is a secure document management system designed to handle sensitive
+      files with controlled access, strong security measures, and an enhanced
+      user experience. The system supports multiple languages and is optimized
+      for performance and scalability.
+    </p>
+
+    <ul class="work-list">
+      <li>Developed a robust file management system for secure uploads, downloads, and organization.</li>
+      <li>Implemented role-based authorization to restrict access to authorized users only.</li>
+      <li>Integrated multi-language support for global accessibility.</li>
+      <li>Enhanced user experience with drag-and-drop file uploads.</li>
+      <li>Implemented file encryption to protect sensitive documents.</li>
+      <li>Added file compression before upload to optimize storage and reduce upload times.</li>
+      <li>Ensured scalable handling of increasing document volumes without performance degradation.</li>
+    </ul>
 </div>
 
 <!-- Baash -->
@@ -154,11 +186,21 @@ footer {
 <strong>Tech:</strong> Laravel, Razorpay, Queues, File Storage
 </div>
 
-<ul>
-<li>Implemented secure Razorpay payment workflow.</li>
-<li>Used Laravel queues for async processing.</li>
-<li>Secure file uploads for product assets.</li>
-</ul>
+<p class="overview">
+      Baash is an e-commerce platform designed for party planners, enabling users
+      to browse products, place orders, and complete secure online payments. The
+      application focuses on transaction security, performance, and a smooth user
+      experience.
+    </p>
+
+    <ul class="work-list">
+      <li>Designed and implemented a secure payment workflow using Razorpay.</li>
+      <li>Integrated Laravel queues to process time-consuming tasks asynchronously, improving responsiveness during peak usage.</li>
+      <li>Implemented secure file upload functionality for product images and documents.</li>
+      <li>Leveraged Laravel’s file storage system to efficiently manage uploaded assets.</li>
+      <li>Applied validation and security controls to prevent unauthorized file access.</li>
+      <li>Optimized checkout and order flows for both customers and administrators.</li>
+    </ul>
 </div>
 
 <!-- Vediclab -->
@@ -169,11 +211,21 @@ footer {
 <strong>Tech:</strong> CodeIgniter, MySQL, REST APIs, Brevo
 </div>
 
-<ul>
-<li>Built REST APIs supporting core application logic.</li>
-<li>Automated monthly exercise & nutrition plans via stored procedures.</li>
-<li>Implemented triggers for task automation and notifications.</li>
-</ul>
+<p class="overview">
+      Vediclab is a specialized application developed for the Vedic science domain,
+      designed to generate personalized exercise and nutrition plans based on
+      predefined business logic and recurring schedules. The system emphasizes
+      automation, data accuracy, and secure communication.
+    </p>
+
+    <ul class="work-list">
+      <li>Designed and developed robust REST APIs using CodeIgniter.</li>
+      <li>Implemented stored procedures to generate monthly exercise and nutrition plans.</li>
+      <li>Integrated Brevo with secure token-based authentication.</li>
+      <li>Implemented database triggers to automate backend tasks and notifications.</li>
+      <li>Optimized database operations for efficient data flow and scalability.</li>
+      <li>Collaborated with stakeholders to align technical solutions with domain requirements.</li>
+    </ul>
 </div>
 
 <!-- Trusted Carers -->
@@ -184,20 +236,112 @@ footer {
 <a href="https://trustedcarers.ie/" target="_blank">Visit Site</a>
 </div>
 
-<ul>
-<li>Integrated Google/Facebook social login.</li>
-<li>Implemented Stripe payments and webhook verification.</li>
-</ul>
+<p class="overview">
+      Trusted Carers is a platform that connects families seeking compassionate
+      caregivers with caregivers applying for job opportunities. The system
+      focuses on secure authentication, reliable payment handling, and a smooth
+      user experience.
+    </p>
+
+    <ul class="work-list">
+      <li>Integrated social login functionality (Google, Facebook, and other providers).</li>
+      <li>Implemented secure Stripe payment processing for reliable transactions.</li>
+      <li>Verified Stripe webhooks to ensure only legitimate payment events triggered system actions.</li>
+      <li>Added backend validation to prevent duplicate or invalid payment events.</li>
+      <li>Maintained platform security and reliability for both families and caregivers.</li>
+    </ul>
 </div>
 
+<!-- Trusted Carers -->
+<div class="project">
+<h3>Synchemia-Pharmaceutical Website</h3>
+<div class="meta">
+<strong>Tech:</strong> CodeIgniter, Stripe, Social Login<br>
+        <a href="https://www.synchemia.com" target="_blank">Visit Website</a>
+</div>
+
+<p class="overview">
+     Synchemia is a pharmaceutical company website developed to present products
+      and information in a clear, professional, and user-friendly manner, with a
+      secure backend for content management.
+    </p>
+
+     <ul class="work-list">
+      <li>Designed and implemented the frontend with a focus on usability and clarity.</li>
+      <li>Developed a secure and intuitive admin panel for content and user management.</li>
+      <li>Ensured clean separation between frontend and backend using MVC principles.</li>
+      <li>Applied best practices for maintainability and content scalability.</li>
+    </ul>
+    </div>
 <!-- Government -->
 <div class="project">
-<h3>Government of Kerala Projects</h3>
-<ul>
-<li><strong>AIMS:</strong> Agricultural Information Management System</li>
-<li><strong>State Horticulture Mission:</strong> CMS-based horticulture platform</li>
-<li><strong>SecurePass:</strong> Session management system (IBM AppScan audited)</li>
-</ul>
+<h3>AIMS-Agricultural Information Management System (Government of Kerala)</h3>
+<div class="meta">
+<strong>Tech:</strong> CodeIgniter<br>
+        <a href="https://aims.kerala.gov.in" target="_blank">Visit Portal</a>
+</div>
+
+<p class="overview">
+      AIMS is a government-backed digital platform supporting agricultural
+      initiatives such as Subhiksha Keralam, crop insurance, and calamity relief.
+      The system enables efficient delivery of services to farmers while ensuring
+      accuracy, transparency, and scalability.
+    </p>
+
+    <ul class="work-list">
+      <li>Contributed to core modules supporting farmer registration and scheme workflows.</li>
+      <li>Supported large-scale public-facing functionality used by farmers and officials.</li>
+      <li>Maintained data integrity across agricultural programs and service records.</li>
+      <li>Participated in system updates to ensure uninterrupted service during peak usage.</li>
+      <li>Ensured compliance with government standards and long-term maintainability.</li>
+    </ul>
+    </div>
+<!-- Government -->
+
+<div class="project">
+  <h3>State Horticulture Mission – CMS-Based Government Platform</h3>
+
+  <div class="meta">
+    <strong>Tech:</strong> CodeIgniter, MySQL<br>
+    <a href="https://shm.kerala.gov.in" target="_blank">Visit Portal</a>
+  </div>
+
+  <p class="overview">
+    The State Horticulture Mission (SHM) platform is a government-backed CMS-based
+    application developed to support horticultural services across Kerala. The
+    system disseminates information on schemes, farmer services, and departmental
+    updates, ensuring accurate and timely public access.
+  </p>
+
+  <ul class="work-list">
+    <li>Contributed to the development and maintenance of a CMS-based web application.</li>
+    <li>Implemented backend modules for content updates, scheme information, and public notifications.</li>
+    <li>Ensured the platform was user-friendly and accessible for farmers, officials, and the public.</li>
+    <li>Supported stability and performance for a high-visibility public-facing website.</li>
+    <li>Followed government coding standards and best practices for long-term reliability.</li>
+  </ul>
+</div>
+<div class="project">
+  <h3>SecurePass – Session Management System (Kerala Legislative Assembly)</h3>
+
+  <div class="meta">
+    <strong>Tech:</strong> PHP, Session Management, IBM AppScan<br>
+  </div>
+
+  <p class="overview">
+    SecurePass is a secure session management and access control system developed
+    for the Kerala Legislative Assembly. The system ensures secure user sessions,
+    controlled access, and protection against common web vulnerabilities in a
+    highly sensitive government environment.
+  </p>
+
+  <ul class="work-list">
+    <li>Contributed to the development of a secure session management system.</li>
+    <li>Implemented safeguards against session hijacking, unauthorized access, and session fixation.</li>
+    <li>Participated in security audits conducted using IBM AppScan.</li>
+    <li>Analyzed audit findings and implemented fixes related to session handling and input validation.</li>
+    <li>Ensured compliance with government security standards and audit requirements.</li>
+  </ul>
 </div>
 
 </section>
